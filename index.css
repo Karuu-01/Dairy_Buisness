@@ -3,3 +3,18 @@
   padding: 0px;
   box-sizing: border-box;
 }
+.section>h1{
+text-align: center;
+font-size: 70px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+.section>ul{
+  background-color: aqua;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 520px;
+  width: 1420px;
+  height: 100px;
+}
