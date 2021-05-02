@@ -10,9 +10,80 @@
   <title>Dairy Business</title>
 </head>
 <body>
-  <div class="section">
-    <h1><u>Moringa Farm Records</u></h1>
-    <img src="pexels-matthias-zomer-422218.jpg" height="700" width="1420">
+    <div class="section">
+      <img src="pexels-matthias-zomer-422218.jpg" height="400" width="630">
+      <img src="https://images.pexels.com/photos/458991/pexels-photo-458991.jpeg?cs=srgb&dl=pexels-pixabay-458991.jpg&fm=jpg" height="400" width="630">
+    </div>
+    <div class="main">
+      <div class="heading">
+          <h1>MORINGA FARM PRODUCTION RECORDS</h1>
+      </div>
+    <div class="title">
+      <h1>Enter amount in Litres</h1>
+    </div>
+  <div class="contact-form">
+    <div class="input-fields">
+      <input type="text" class="input" placeholder="Shed A" id="shed_a" name="shed_a" >
+      <input type="text" class="input" placeholder="Shed B" id="shed_b" name="shed_b">
+      <input type="text" class="input" placeholder="Shed C" id="shed_c" name="shed_c">
+      <input type="text" class="input" placeholder="Shed D" id="shed_d" name="shed_d">
+      <input class="btn" type="button" value="Generate Report" onclick="totalProduction()">
+      <input class="btn" type="button" value="Reload" onclick="reset()">
+    </div> 
+  </div>
+</div> 
+<div class="output" >
+    <div class="title">
+      <h1>Daily production in ltrs.</h1>
+    </div>
+    <div class="production-area">
+        <div id="results">
+        </div>
+        <div id="totals">
+        </div> 
+    </div>   
+</div>
+<div class="overTime" >
+  <div class="title">
+    <h1>Income Over Time</h1>
+  </div>
+  <div class="production-area">
+      <div id="display_incomeOverTime_weekly">
+
+      </div>
+      <div id="display_incomeOverTime_yearly">
+    
+      </div>
+  </div>
+</div>
+<div class="leapYearReport" >
+  <div class="title">
+    <h1>Leap Year Report</h1>
+  </div>
+  <div class="production-area">
+      <div id="display_">
+        <div id="leapyear"></div>
+
+      </div>
+      <div id="display_">
+    
+      </div>
+  </div>
+</div>
+<div class="compareReport" >
+  <div class="title">
+    <h1>Compare Reports</h1>
+  </div>
+  <div class="production-area">
+      <div id="display_">
+
+      </div>
+      <div id="display_">
+    
+      </div>
+  </div>
+</div>
+
   </div>
 </body>
 </html>
