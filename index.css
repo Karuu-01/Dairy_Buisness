@@ -18,19 +18,20 @@
   left: 0%;
   height:450px ;
   width: 100%;
+  background-color: darkseagreen;
   max-width: 740px;
-  background:darkseagreen;
+  background-size: cover;
   padding: 40px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 .main .title h1, .heading h1{
-  color: teal;
+  color: black;
   text-align: center;
   margin-bottom: 25px;
 }
 h1{
-  color:teal;
+  color:black;
 }
 .contact-form{
   display: flex;
@@ -49,9 +50,9 @@ h1{
   margin: 10px 0;
   background: transparent;
   border: 0px;
-  border-bottom: 2px solid teal;
+  border-bottom: 2px solid white;
   padding: 10px;
-  color: teal;
+  color: white;
   width: 100%;
 }
 .milk-output{
@@ -66,7 +67,7 @@ h1{
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 .milk-output .title h1{
-  color: teal;
+  color: black;
   text-align: center;
   margin-bottom: 25px;
 }
