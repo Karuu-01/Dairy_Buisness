@@ -5,8 +5,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="index.css">
-	<link rel="stylesheet" href="index.js">
-	<script src="index.js"></script>
   <title>Dairy Business</title>
 </head>
 <body>
@@ -21,69 +19,69 @@
     <div class="title">
       <h1><u>Enter amount in Litres</u></h1>
     </div>
-  <div class="contact-form">
-    <div class="input-fields">
-      <input type="text" class="input" placeholder="Shed A" id="shed_a" name="shed_a" >
-      <input type="text" class="input" placeholder="Shed B" id="shed_b" name="shed_b">
-      <input type="text" class="input" placeholder="Shed C" id="shed_c" name="shed_c">
-      <input type="text" class="input" placeholder="Shed D" id="shed_d" name="shed_d">
-      <input class="btn" type="button" value="Generate Report" onclick="totalProduction()">
-      <input class="btn" type="button" value="Reload" onclick="reset()">
-    </div> 
-  </div>
-</div> 
-<div class="milk-output" >
-    <div class="title">
-      <h1>Daily production in ltrs.</h1>
+    <div class="contact-form">
+      <div class="input-fields">
+        <input type="text" class="input" placeholder="Shade A" id="shade_a" name="shade_a" >
+        <input type="text" class="input" placeholder="Shade B" id="shade_b" name="shade_b">
+        <input type="text" class="input" placeholder="Shade C" id="shade_c" name="shade_c">
+        <input type="text" class="input" placeholder="Shade D" id="shade_d" name="shade_d">
+        <input class="btn" type="button" value="Generate Report" onclick="totalProduction()">
+        <input class="btn" type="button" value="Reload" onclick="reset()">
+      </div> 
     </div>
-    <div class="production">
-        <div id="results">
+  </div> 
+  <div class="output" >
+      <div class="title">
+        <h1>Daily production in ltrs.</h1>
+      </div>
+      <div class="production-area">
+          <div id="results">
+          </div>
+          <div id="totals">
+          </div> 
+      </div>   
+  </div>
+  <div class="overTime" >
+    <div class="title">
+      <h1>Income Over Time</h1>
+    </div>
+    <div class="production-area">
+        <div id="display_incomeOverTime_weekly">
+
         </div>
-        <div id="totals">
-        </div> 
-    </div>   
-</div>
-<div class="income" >
-  <div class="title">
-    <h1>Income Over Time</h1>
+        <div id="display_incomeOverTime_yearly">
+      
+        </div>
+    </div>
   </div>
-  <div class="production-area">
-      <div id="display_incomeOverTime_weekly">
+  <div class="leapYearReport" >
+    <div class="title">
+      <h1>Leap Year Report</h1>
+    </div>
+    <div class="production-area">
+        <div id="display_">
+          <div id="leapyear"></div>
 
-      </div>
-      <div id="display_incomeOverTime_yearly">
+        </div>
+        <div id="display_">
+      
+        </div>
+    </div>
+  </div>
+  <div class="compareReport" >
+    <div class="title">
+      <h1>Compare Reports</h1>
+    </div>
+    <div class="production-area">
+        <div id="display_">
 
-      </div>
+        </div>
+        <div id="display_">
+      
+        </div>
+    </div>
   </div>
-</div>
-<div class="leapYearReport" >
-  <div class="title">
-    <h1>Leap Year Report</h1>
-  </div>
-  <div class="production-area">
-      <div id="display_">
-        <div id="leapyear"></div>
-
-      </div>
-      <div id="display_">
-    
-      </div>
-  </div>
-</div>
-<div class="compareReport" >
-  <div class="title">
-    <h1>Compare Reports</h1>
-  </div>
-  <div class="production-area">
-      <div id="display_">
-
-      </div>
-      <div id="display_">
-    
-      </div>
-  </div>
-</div>
-
-  </div>
+  
+<script src="index.js"></script>
 </body>
 </html>
